@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List</title>
+    <script src="https://kit.fontawesome.com/a6cfec0f45.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+  <a href="https://www.patreon.com/zniti" target="_blank" class="supp"><h1>EXCLUSIVE CONTENT <i class="fab fa-patreon"></i></h1></a>
+
+<div class="work">
+
+<div class="mainwork">
+  <input type="text" name="value" id="value" placeholder="Name"><br>
+  <center>
+  <button onclick="addfirst()">Insert First</button><br>
+  <button onclick="addlast()">Insert Last</button>
+  </center>
+</div>
+<div class="indexwork">
+  <input type="text" name="index" id="index" placeholder="Index"><br>
+  <center>
+  <button onclick="insertindex()">Add by index</button><br>
+  <button onclick="removeindex()">Remove by index</button><br>
+  <button onclick="find()">Find by index</button>
+  </center>
+</div>
+
+</div>
+
+
+
+
+<div class="finallist">
+  <div>
+    <h1>List :</h1>
+    <div class="output" id="flist"></div>
+  </div>
+  <div>
+    <h1>Searched :</h1>
+    <div class="output" id="searched"></div>
+  </div>
+
+
+</div>
+
+<center>
+<button class="clear" onclick="clearall()">Clear</button>
+</center>
+</div>
+    <script src="linked-list.js"></script>
+
+</body>
+
+</html>
